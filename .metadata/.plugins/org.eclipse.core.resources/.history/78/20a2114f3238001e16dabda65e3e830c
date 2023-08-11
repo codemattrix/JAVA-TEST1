@@ -1,0 +1,25 @@
+package fundamentalsgood;
+
+public class Employee {
+	int empid;
+	String Name;
+	int Age;
+	public Employee(int id,String name,int age) {
+		empid=id;
+		Name=name;
+		Age=age;
+		
+	}
+	public void show() {
+		System.out.println(empid+"::"+Name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee obj=new Employee(01,"ravish",25);
+		obj.show();
+		Employee obj1=new Employee(02,"anish",23);
+		obj1.show();
+	}
+
+}

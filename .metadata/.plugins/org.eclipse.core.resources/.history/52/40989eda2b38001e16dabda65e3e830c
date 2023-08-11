@@ -1,0 +1,20 @@
+package fundamentalsgood;
+
+public class Student {
+	public void student() {
+		int id=1;
+		String name="ravish";
+		String College="BGSIT";
+		System.out.println("Id of the student "+id+"Name:  "+name+"college :"+College);
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student obj=new Student();
+		obj.student();
+		
+
+	}
+
+}

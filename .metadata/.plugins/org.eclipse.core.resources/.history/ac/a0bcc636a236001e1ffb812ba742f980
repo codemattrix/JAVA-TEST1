@@ -1,0 +1,10 @@
+package fundamentalsgood;
+
+public class Variables {
+	int a=10;
+
+	public static void main(String[] args) {
+		Variables obj=new Variables();
+		System.out.println(obj.a);
+	}
+}
