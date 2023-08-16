@@ -5,7 +5,7 @@ public class Employee {
 	String Name;
 	int Age;
 	static String Company;
-	public Employee(int id,String name,int age,String comp) {
+	public  Employee(int id,String name,int age,String comp) {
 		empid=id;
 		Name=name;
 		Age=age;
