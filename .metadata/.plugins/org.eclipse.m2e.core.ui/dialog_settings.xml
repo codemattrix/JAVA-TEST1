@@ -26,13 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.AnAm.spring.firstMVC"/>
 		</list>
 		<list key="groupId">
-			<item value="com.AnAm"/>
 		</list>
 		<list key="artifactId">
-			<item value="spring.firstMVC"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

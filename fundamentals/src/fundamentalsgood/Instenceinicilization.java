@@ -6,7 +6,7 @@ public class Instenceinicilization {
 		System.out.println("constructor exicution");
 	}
 	
-	// it will catch first by custructor before it content exicution
+	// it will catch first by constructor before it content exicution
 	{
 		System.out.println("block exicution");
 	}
