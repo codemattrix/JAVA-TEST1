@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
+C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3490526498.index
+\springmvc\src\main\resources
 C:\Users\Dell\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1288885722.index
 \spring.firstMVC\src\main\resources
