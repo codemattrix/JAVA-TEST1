@@ -2,20 +2,17 @@ package Practice;
 
 public class Armstrongwithfor {
 public static void armstring() {
-	int n,sum=1,temp=0;
-	//for(int i=1;i<=500;i++) {
-		
-		while(sum<=500) {
-			int res=sum;
-			n=res%10;
-			res=res/10;
-			temp+=n*n*n;
-			sum++;
-			
-		}
-		if(temp==sum) {
-			System.out.println(temp+",");
-		}
+	int n,temp=0,res,i=1;
+	while(i<=500) {
+		res=i;
+	while(res!=0) {
+		n=res%10;
+		temp=temp+(n*n*n);
+		res=res/10;	
+	}
+		if(temp==i) System.out.print(temp+",");	
+		i++;	
+	}	
 		
 	}
 
